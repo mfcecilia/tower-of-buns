@@ -1,0 +1,16 @@
+html {
+    background-color: black;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+}

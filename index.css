@@ -3,21 +3,30 @@ html {
 }
 
 body {
-    text-align: center;
+    max-width: 100%;
     margin: auto;
+    color: white;
 }
 
 img {
     max-width: 100%;
     margin: auto;
+
 }
 
 h1 {
-    color: white;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 p {
-    color: white;
     max-width: 60%;
     margin: auto;
     font-size: 1.3em;
@@ -31,4 +40,13 @@ hr {
     margin: auto;
     text-align: center;
     max-width: 75%;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }

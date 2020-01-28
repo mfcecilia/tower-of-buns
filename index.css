@@ -3,27 +3,31 @@ html {
 }
 
 body {
-    max-width: 100%;
+    width: 100%;
     margin: auto;
-    color: white;
+    color: mintcream;
+    display: flex;
+    flex-flow: column;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     margin: auto;
 
 }
 
 h1 {
     font-family: 'Open Sans', sans-serif;
+    max-width: 90%;
     margin: auto;
-    display: block;
-    text-align: center;
 }
 
 h3 {
-    text-align: center;
     font-family: 'Open Sans', sans-serif;
+    max-width: 90%;
+    margin: auto;
 }
 
 p {
@@ -33,12 +37,12 @@ p {
 }
 
 hr {
-    max-width: 60%;
+    color: mintcream;
+    width: 40%;
 }
 
 .yt-vid {
     margin: auto;
-    text-align: center;
     max-width: 75%;
 }
 

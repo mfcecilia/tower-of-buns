@@ -3,52 +3,79 @@ html {
 }
 
 body {
-    width: 100%;
+    max-width: 100%;
     margin: auto;
-    color: mintcream;
-    display: flex;
-    flex-flow: column;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.banner {
-    width: 100%;
-    margin: auto;
+    color: white;
 }
 
 img {
-    width: 90%;
+    max-width: 100%;
     margin: auto;
+
 }
 
 h1 {
     font-family: 'Open Sans', sans-serif;
-    max-width: 90%;
     margin: auto;
+    display: block;
+    text-align: center;
 }
 
 h3 {
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
-    max-width: 90%;
-    margin: auto;
 }
 
 p {
     max-width: 60%;
     margin: auto;
     font-size: 1.3em;
+    font-family: cabin-condensed, sans-serif;
 }
 
 hr {
-    color: mintcream;
-    width: 40%;
+    max-width: 60%;
+    color: grey;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 15%;
+    cursor: pointer;
+    line-height: 300%;
+    font-size: 1.1em;
+    background-color: black;
+    color: snow;
+}
+
+button:hover {
+    color: black;
+    background-color: snow;
 }
 
 .yt-vid {
     margin: auto;
+    text-align: center;
     max-width: 75%;
 }
+
+#comic {
+    width: 60%;
+    margin: auto;
+    display: block;
+    height: 600px;
+}
+
+#yt-vid {
+    display: block;
+    margin: auto;
+}
+
+.team {
+    text-align: center;
+}
+
 
 footer {
     text-align: center;
